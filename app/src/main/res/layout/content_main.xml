@@ -41,14 +41,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="This is the content of your newest note..."
+            android:text="@string/this_is_the_content_of_your_newest_note"
             android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Recent Photo"
+        android:text="@string/recent_photo"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
