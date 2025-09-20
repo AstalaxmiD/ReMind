@@ -22,4 +22,8 @@
     <string name="image_view_item_transform_content_description">Represents an image view in the
         item
     </string>
+    <string name="family_uploads">Family Uploads</string>
+    <string name="capsule">Capsule</string>
+    <string name="reminders">Reminders</string>
+    <string name="my_journal">My Journal</string>
 </resources>
