@@ -27,4 +27,8 @@
     <string name="reminders">Reminders</string>
     <string name="my_journal">My Journal</string>
     <string name="today_s_reminders">Today\'s Reminders</string>
+    <string name="this_is_the_content_of_your_newest_note" />
+    <string name="recent_photo" />
+    <string name="todo" />
+    <string name="slideshow_desc">Memory slideshow image</string>
 </resources>

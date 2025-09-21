@@ -20,6 +20,11 @@
             android:id="@+id/nav_FamilyUploads"
             android:icon="@drawable/family"
             android:title="@string/family_uploads" />
+        <item
+            android:id="@+id/nav_journal"
+            android:icon="@drawable/journal2"   <!-- Use your desired icon -->
+            android:title="@string/my_journal" />
+
 
     </group>
 

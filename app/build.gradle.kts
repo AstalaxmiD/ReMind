@@ -1,6 +1,10 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+
+    //id("com.android.application")
+    //id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -27,14 +31,17 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+    //    jvmTarget = "11"
     }
     buildFeatures {
         viewBinding = true
+    }
+    kotlin {
+        jvmToolchain(17) // Specify the JDK version (e.g., 11 for Java 11)
     }
 }
 
@@ -52,4 +59,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //implementation(platform(libs.firebase.bom))
+    //implementation(libs.firebase.analytics)
+   // implementation(libs.firebase.database)
+    implementation(libs.glide)
+
 }

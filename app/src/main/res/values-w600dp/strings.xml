@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="newest_note">Newest Note</string>
+    <string name="this_is_the_content_of_your_newest_note" />
+    <string name="recent_photo" />
+    <string name="todo" />
 </resources>
