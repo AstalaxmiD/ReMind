@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "201782379635",
+    "project_id": "remind-b2ced",
+    "storage_bucket": "remind-b2ced.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201782379635:android:a4f8acd0e617723ba11606",
+        "android_client_info": {
+          "package_name": "com.example.remind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7LUFvIdvmajApTuqUdGOoPiNrefnHWDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_journal">
+
+    <!-- Journal Fragment -->
+    <fragment
+        android:id="@+id/nav_journal"
+        android:name="com.example.remind.JournalFragment"
+        android:label="@string/my_journal"
+        tools:layout="@layout/journal_activity" />
+
+    <!-- Reminder Fragment -->
+    <fragment
+        android:id="@+id/nav_reflow"
+        android:name="com.example.remind.ReminderFragment"
+        android:label="@string/reminders"
+        tools:layout="@layout/fragment_reflow" />
+
+    <!-- Slideshow / Memory Capsule Fragment -->
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.remind.MemorySlideshowFragment"
+        android:label="@string/capsule"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.remind.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- Optional: Family Uploads Fragment -->
+    <fragment
+        android:id="@+id/nav_FamilyUploads"
+        android:name="com.example.remind.FamilyUploadsFragment"
+        android:label="@string/family_uploads"
+        tools:layout="@layout/fragment_family_uploads" />
+
+</navigation>
