@@ -5,22 +5,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_transform"
+            android:id="@+id/nav_journal"
             android:icon="@drawable/journal2"
             android:title="@string/my_journal" />
         <item
-            android:id="@+id/nav_reflow"
+            android:id="@+id/nav_reminders"
             android:icon="@drawable/reminder"
             android:title="@string/reminders" />
         <item
-        android:id="@+id/nav_slideshow"
-        android:icon="@drawable/ic_gallery_black_24dp"
-        android:title="@string/capsule" />
+            android:id="@+id/nav_capsule"
+            android:icon="@drawable/ic_gallery_black_24dp"
+            android:title="@string/capsule" />
         <item
-            android:id="@+id/nav_FamilyUploads"
+            android:id="@+id/nav_family_uploads"
             android:icon="@drawable/family"
             android:title="@string/family_uploads" />
-
     </group>
 
 </menu>

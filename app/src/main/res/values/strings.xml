@@ -27,4 +27,13 @@
     <string name="reminders">Reminders</string>
     <string name="my_journal">My Journal</string>
     <string name="today_s_reminders">Today\'s Reminders</string>
+    <string name="this_is_the_content_of_your_newest_note">This is the content of your newest note...</string>
+    <string name="recent_photo">Recent Photo</string>
+    <string name="new_journal_entry">New Journal Entry</string>
+    <string name="write_your_thoughts_here">Write your thoughts here...</string>
+    <string name="save">Save</string>
+    <string name="saved_entries">Saved Entries</string>
+    <string name="todo">TODO</string>
+    <string name="newest_note">Newest Note</string>
+    <string name="this_is_the_journal_page">This is the Journal page!</string>
 </resources>

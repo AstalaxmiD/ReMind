@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_journal" type="id" />
+    <item name="nav_reminders" type="id" />
+    <item name="nav_capsule" type="id" />
+    <item name="nav_family_uploads" type="id" />
+</resources>

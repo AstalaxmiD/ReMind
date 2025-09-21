@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReMind">
         <activity
+            android:name=".FamilyUploadsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CapsuleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RemindersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JournalActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

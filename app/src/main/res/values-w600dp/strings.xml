@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="newest_note">Newest Note</string>
+    <string name="this_is_the_journal_page">This is the Journal page!</string>
 </resources>
